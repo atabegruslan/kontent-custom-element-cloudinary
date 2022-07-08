@@ -34,8 +34,9 @@ But now, we are going to add a Cloudinary Custom Element uploader, so fork https
 
 ![setup1](https://user-images.githubusercontent.com/20809372/177953963-6308895b-33d9-43f9-956f-1adc2d8c2580.png)
 
-Above is what https://kontent.ai/learn/tutorials/develop-apps/integrate/content-editingextensions/#
-a-displaying-your-custom-editor-in-kontent is essentially trying to say.
+Above is what https://kontent.ai/learn/tutorials/develop-apps/integrate/content-editingextensions/#a-displaying-your-custom-editor-in-kontent is essentially trying to say.
+
+https://github.com/atabegruslan/kontent-custom-element-cloudinary/blob/main/README_orig.md#configuring-the-custom-element
 
 ## Create some contents and test the Cloudinary Custom Element uploader
 
@@ -59,4 +60,22 @@ It is also evident when you get this content via Kontent's Delivery API
 - https://www.youtube.com/watch?v=6nFsX22CZXM
 - Deeper tech notes: https://kontent.ai/learn/reference/custom-elements-js-api/
 - Examples to imitate: https://github.com/Kentico/kontent-custom-element-samples
-- Further help and contact: https://kontent.ai/discord
+
+## Support
+
+- https://kontent.ai/community/
+- https://kontent.ai/discord
+- Chat bubble at the bottom-right of https://kontent.ai/
+
+## Other Resources
+
+- Install locally: https://www.youtube.com/watch?v=PmoXboT8FHw
+  - https://xperience.io/get-started/trial
+- Develop: https://www.youtube.com/watch?v=dpkQz5vNPDQ
+- Install hosted: https://xperience.io/get-started/hosted-trial
+- https://github.com/Kentico/custom-element-devkit
+- https://kontent.ai/learn/reference/delivery-api/
+- https://kontent.ai/developers/?itm_medium=home-hero&itm_campaign=developers
+- https://github.com/Kentico/kontent-delivery-sdk-js
+- https://kontent.ai/learn/tutorials/develop-apps/overview/?tech=javascript
+- https://kontent.ai/learn/tutorials/write-and-collaborate/create-content/compose-content-in-rich-text/#a-adding-components
