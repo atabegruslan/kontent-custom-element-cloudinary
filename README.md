@@ -17,7 +17,7 @@ https://kontent.ai/learn/tutorials/develop-apps/integrate/content-editing-extens
 
 ![digital_asset_management](https://user-images.githubusercontent.com/20809372/177953362-2221670a-0185-4f9f-afed-186c15a4d0ae.PNG)
 
-The example for Cloudinary uploader : https://github.com/Kentico/kontent-custom-elementcloudinary
+The example for Cloudinary uploader : https://github.com/Kentico/kontent-custom-element-cloudinary
 
 A similar example for Bynder: https://github.com/Kentico/kontent-custom-element-bynder
 Which results as: https://assets-us-01.kc-usercontent.com/4ec262a7-3d6c-008c-aa10-1e6ffc6c2e14/58d37abd-dd00-4dbf-85ba-4ebdf281bede/bynder.gif
@@ -71,15 +71,13 @@ Recall, Kontent have 3 set of APIs that you can interact with:
 
 The plain Delivery APIs in its pure HTTPS form can be downloaded and imported into POSTMAN from here: https://kontent.ai/learn/tutorials/develop-apps/get-started/postman-collection/
 
-![](https://user-images.githubusercontent.com/20809372/177956683-3dabc2af-00b0-4a03-b8c2-1361cae44d20.png)
-
 For the 3 content items that comes out of the box, Kontent already have an **example client app**, which we can imitate.
 
 ![default](https://user-images.githubusercontent.com/20809372/177969906-8dc8d38f-30e3-454f-a998-460e889febb0.png)
 
 This example app was made by using https://github.com/Kentico/kontent-sample-app-react , which is hosted on Github Pages here `https://kentico.github.io/kontent-sample-app-preview-react/{rest of the URL}` . 
 
-After coding the client app: https://github.com/atabegruslan/kontent-cloudinary-demo-client
+After coding up your client app: https://github.com/atabegruslan/kontent-cloudinary-demo-client
 
 Host it
 
