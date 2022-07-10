@@ -53,7 +53,7 @@ It is also evident when you get this content via Kontent's Delivery API
 
 ![](https://user-images.githubusercontent.com/20809372/177956683-3dabc2af-00b0-4a03-b8c2-1361cae44d20.png)
 
-**Note** you may have noticed that you didn't do the things in this step https://kontent.ai/learn/tutorials/develop-apps/integrate/content-editing-extensions/#aensuring- secure-hosting (ie: You didn't explicitly made any iFrames). That's because: The custom element is just a simple web application. Once you add a custom element in Kontent, setup the URL and the settings, Kontent then adds it into the app through iframe.
+**Note** you may have noticed that you didn't do the things in this step https://kontent.ai/learn/tutorials/develop-apps/integrate/content-editing-extensions/#aensuring-secure-hosting (ie: You didn't explicitly made any iFrames). That's because: The custom element is just a simple web application. Once you add a custom element in Kontent, setup the URL and the settings, Kontent then adds it into the app through iframe.
 
 ## Source Code explanation
 
