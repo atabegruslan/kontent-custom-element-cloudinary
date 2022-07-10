@@ -55,6 +55,31 @@ It is also evident when you get this content via Kontent's Delivery API
 
 **Note** you may have noticed that you didn't do the things in this step https://kontent.ai/learn/tutorials/develop-apps/integrate/content-editing-extensions/#aensuring- secure-hosting (ie: You didn't explicitly made any iFrames). That's because: The custom element is just a simple web application. Once you add a custom element in Kontent, setup the URL and the settings, Kontent then adds it into the app through iframe.
 
+## Source Code explanation
+
+- Source code: https://github.com/atabegruslan/kontent-custom-element-cloudinary/blob/main/src/cloudinary-selector.js
+- Custom Element JS API Documentation: https://kontent.ai/learn/reference/custom-elements-js-api
+
+### Init
+
+- `CustomElement.init((element, _context)`
+- https://kontent.ai/learn/reference/custom-elements-js-api/#a-init-method
+- `element.config` is the "Parameters" JSON
+- https://github.com/atabegruslan/kontent-custom-element-cloudinary/blob/main/src/cloudinary-selector.js#L92-L94
+
+### Save selected/inserted images
+
+- `CustomElement.setValue`
+- https://kontent.ai/learn/reference/custom-elements-js-api/#a-setvalue-method
+- https://github.com/atabegruslan/kontent-custom-element-cloudinary/blob/main/src/cloudinary-selector.js#L41
+
+### Redisplay images
+
+- https://kontent.ai/learn/reference/custom-elements-js-api/#a-init-method
+- `element.value` contains the previously saved images.
+- https://github.com/atabegruslan/kontent-custom-element-cloudinary/blob/main/src/cloudinary-selector.js#L130
+- `setupSelector` -> `renderSelected`
+
 ## Preview
 
 Tutorial: https://kontent.ai/learn/tutorials/develop-apps/build-strong-foundation/set-up-preview/
@@ -102,7 +127,6 @@ Results
 ## Make ANY custom element
 
 - https://www.youtube.com/watch?v=6nFsX22CZXM
-- Deeper tech notes: https://kontent.ai/learn/reference/custom-elements-js-api/
 - Examples to imitate: https://github.com/Kentico/kontent-custom-element-samples
 
 ## Support
