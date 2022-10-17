@@ -12,7 +12,7 @@ https://kontent.ai/learn/tutorials/develop-apps/integrate/content-editing-extens
 
 ## Examples of Custom Element
 
-- https://kontent.ai/integrations/
+- https://kontent.ai/integrations/ (This is Kontent's marketplace)
 - https://kentico.github.io/kontent-custom-element-samples/gallery/
 
 ![digital_asset_management](https://user-images.githubusercontent.com/20809372/177953362-2221670a-0185-4f9f-afed-186c15a4d0ae.PNG)
